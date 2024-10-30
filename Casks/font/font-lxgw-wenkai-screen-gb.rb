@@ -7,10 +7,10 @@ cask "font-lxgw-wenkai-screen-gb" do
   name "霞鹜文楷 屏幕版"
   homepage "https://github.com/lxgw/LxgwWenKai"
 
-  # livecheck do
-  #   url :url
-  #   strategy :github_latest
-  # end
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "LXGWWenKaiGBScreen.ttf"
  # No zap stanza required
